@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fitness page</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="leftSide">
+            <span>FitnessTime</span>
+        </div>
+        <ul class="rightSide" id="myTopnav">
+            <li class="selected">Home</li>
+            <li id="features">Features</li>
+            <li id="ourTeam">Our team</li>
+            <li id="gallery">Gallery</li>
+            <li id="pricing">Pricing</li>
+            <li id="partners">Partners</li>
+            <li id="contact">Contact</li>
+            <div class="sandwich" onclick="showNavBar()"><i class="fas fa-bars"></i></div>
+        </ul>
+        <div class="clearfix"></div>
+        <ul class="phoneNumber">
+            <li class="icon">
+                <img src="img/phone.png">
+            </li>
+            <li class="number">1-800-555-1234</li>
+        </ul>
+    </nav>
+
+    <section class="slider">
+        <div class="image-holder">
+            <div class="mySlides slider-image1 fade"></div>
+            <div class="mySlides slider-image2 fade"></div>
+        </div>
+        <div class="button-holder">
+            <div class="slider-left" onclick="plusSlides(-1)">
+                <img src="img/left-chevron.png">
+            </div>
+            <div class="slider-right" onclick="plusSlides(1)">
+                <img src="img/right-chevron.png">
+            </div>
+        </div>
+        <h6>Landing page template</h6>
+        <h1>Perfect fitness solution</h1>
+        <h4>Best choice for your site</h4>
+    </section>
+
+    <section class="features">
+        <h1>Welcome to fitness<span>time!</span></h1>
+        <h5>Take care of your body. It's the only place you have to live.</h5>
+        <div class="wrapper">
+            <div class="box">
+                <h6>
+                    <img src="img/features/clipboard w tick.png"> Strength training</h6>
+                <p>Maecenas mattis vitae tellus vel interdum. Quisque lacinia mauris id convallis pretium. Aliquam id odio sit
+                    amet mauris porttitor iaculis a eu dui.</p>
+            </div>
+            <div class="box">
+                <h6>
+                    <img src="img/features/like plus.png"> Cardio fitness</h6>
+                <p>Maecenas mattis vitae tellus vel interdum. Quisque lacinia mauris id convallis pretium. Aliquam id odio sit
+                    amet mauris porttitor iaculis a eu dui.</p>
+            </div>
+            <div class="box">
+                <h6>
+                    <img src="img/features/takeaway cup.png">Aquatic</h6>
+                <p>Maecenas mattis vitae tellus vel interdum. Quisque lacinia mauris id convallis pretium. Aliquam id odio sit
+                    amet mauris porttitor iaculis a eu dui.</p>
+            </div>
+            <div class="box">
+                <h6>
+                    <img src="img/features/group.png">Mind & body</h6>
+                <p>Maecenas mattis vitae tellus vel interdum. Quisque lacinia mauris id convallis pretium. Aliquam id odio sit
+                    amet mauris porttitor iaculis a eu dui.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ourTeam">
+      <h2>Superb trainers</h2>
+      <div class="wrapper">
+        <div id="viewOtto" class="box">
+          <img src="img/ourTeam/otto.png">
+          <div class="trainerInfo">
+            <h6>Otto W. Schreffler</h6>
+            <h6 class="trainer">trainer</h6>
+          </div>
+          <div class="aboutTrainer">
+            <h6>Otto W. Schreffler</h6>
+            <h6 class="trainer">trainer</h6>
+            <p>Maecenas mattis vitae tellus vel inter dum. Quisque lacinia mauris id convallis pretium.
+              Aliquam id odio sit  amet mauris porttitor iaculis a eu ui.
+              Macenas mattis vitae tellus vel interdum. Quisque lacinia.</p>
+          </div>
+        </div>
+        <div id="viewBrooke" class="box">
+          <img src="img/ourTeam/brooke.png">
+          <div class="trainerInfo">
+            <h6>Brooke C. Carrington</h6>
+            <h6 class="trainer">trainer</h6>
+          </div>
+          <div class="aboutTrainer">
+            <h6>Brooke C. Carrington</h6>
+            <h6 class="trainer">trainer</h6>
+            <p>Maecenas mattis vitae tellus vel inter dum. Quisque lacinia mauris id convallis pretium.
+              Aliquam id odio sit  amet mauris porttitor iaculis a eu ui.
+              Macenas mattis vitae tellus vel interdum. Quisque lacinia.</p>
+          </div>
+        </div>
+        <div id="viewArthur" class="box">
+          <img src="img/ourTeam/arthur.png">
+          <div class="trainerInfo">
+            <h6>Arthur M. Huffman</h6>
+            <h6 class="trainer">trainer</h6>
+          </div>
+          <div class="aboutTrainer">
+            <h6>Arthur M. Huffman</h6>
+            <h6 class="trainer">trainer</h6>
+            <p>Maecenas mattis vitae tellus vel inter dum. Quisque lacinia mauris id convallis pretium.
+              Aliquam id odio sit  amet mauris porttitor iaculis a eu ui.
+              Macenas mattis vitae tellus vel interdum. Quisque lacinia.</p>
+          </div>
+        </div>
+        <div id="viewBernice" class="box">
+          <img src="img/ourTeam/bernice.png">
+          <div class="trainerInfo">
+            <h6>Bernice B. Workr</h6>
+            <h6 class="trainer">trainer</h6>
+          </div>
+          <div class="aboutTrainer">
+            <h6>Bernice B. Workr</h6>
+            <h6 class="trainer">trainer</h6>
+            <p>Maecenas mattis vitae tellus vel inter dum. Quisque lacinia mauris id convallis pretium.
+              Aliquam id odio sit  amet mauris porttitor iaculis a eu ui.
+              Macenas mattis vitae tellus vel interdum. Quisque lacinia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+        <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+    </div>
+
+    <section class="gallery">
+      <h2>Our gallery</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <div class="wrapper">
+        <img src="img/gallery/class1.png" class="myImg">
+        <img src="img/gallery/class21.png" class="myImg">
+        <img src="img/gallery/class3.png" class="myImg">
+        <img src="img/gallery/class4.png" class="myImg">
+        <img src="img/gallery/class6.png" class="myImg">
+        <img src="img/gallery/blog1.png" class="myImg">
+        <img src="img/gallery/trainer5.png" class="myImg">
+        <img src="img/gallery/no1.png" class="myImg">
+      </div>
+    </section>
+
+    <section class="pricing">
+      <h2>Pricing and plans</h2>
+      <div class="wrapper">
+        <div class="priceItem">
+          <div class="price">
+            <img src="img/pricing/pencil.png">
+            <h4>Standard</h4>
+            <h3>$33<span>.33</span></h3>
+          </div>
+          <ul>
+            <li>Powerful Amin Panel</li>
+            <li>Event Calendar Pro Supported</li>
+            <li>Bexed And Wide Versions</li>
+            <li>Dark & Light Version</li>
+            <li>Revolution Slider $15 Worth</li>
+          </ul>
+        </div>
+        <div class="priceItem">
+          <div class="price">
+            <img src="img/pricing/paper plane1.png">
+            <h4>Advanced</h4>
+            <h3>$52<span>.60</span></h3>
+          </div>
+          <ul>
+            <li>Powerful Amin Panel</li>
+            <li>Event Calendar Pro Supported</li>
+            <li>Bexed And Wide Versions</li>
+            <li>Dark & Light Version</li>
+            <li>Revolution Slider $15 Worth</li>
+          </ul>
+        </div>
+        <div class="priceItem">
+          <div class="price">
+            <img src="img/pricing/portfolio full.png">
+            <h4>Business</h4>
+            <h3>$84<span>.20</span></h3>
+          </div>
+          <ul>
+            <li>Powerful Amin Panel</li>
+            <li>Event Calendar Pro Supported</li>
+            <li>Bexed And Wide Versions</li>
+            <li>Dark & Light Version</li>
+            <li>Revolution Slider $15 Worth</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <h2>Partners</h2>
+      <div class="slider"></div>
+    </section>
+
+<footer>
+  <div class="socialNetworks">
+    <div class="tweets">
+      <i class="fab fa-twitter"></i>
+      <p>RT @collis: Trade growth ideas with other founders. Look for ways to cross promote. Small startups today may be big friends later. (9/10)<span>2 days ago</span></p>
+    </div>
+    <div class="icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-pinterest-p"></i>
+      <i class="fab fa-google-plus-g"></i>
+      <i class="fab fa-tumblr"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fas fa-rss"></i>
+    </div>
+  </div>
+  <div class="contact">
+    <div class="contactInfo">
+      <h6>Contact info</h6>
+      <p>Ut volutpat consectetur aliquam. Curabitur auctor in nis ulum ornare. Sed consequat, augue condimentum fermentum gravida, metus elit vehicula dui.</p>
+      <div class="phoneNumber"><i class="fas fa-mobile-alt"></i>+1800 1234 56789</div>
+      <div class="email"><i class="fas fa-envelope"></i>support@website.com</div>
+    </div>
+    <div class="contactForm">
+      <h6>Send us message</h6>
+      <input name="name" placeholder="YOUR NAME">
+      <input name="email" placeholder="EMAIL ADDRESS">
+      <input name="subject" placeholder="SUBJECT">
+      <textarea placeholder="YOUR MESSAGE"></textarea>
+      <div class="button">SUBMIT YOUR MESSAGE<i class="fas fa-chevron-right"></i></div>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="rights">© 2013. All rights reserved. Designed by PSD Booster.</div>
+    <div class="back" id="scroll">Back to top</div>
+  </div>
+</footer>
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>
