@@ -452,7 +452,7 @@ section.partners .slider {
         background-position: 0px 0px;
     }
     100% {
-        background-position: -1211px 0px;
+        background-position: -1015px 0px;
     }
 }
 @-webkit-keyframes carousel {
@@ -460,7 +460,7 @@ section.partners .slider {
         background-position: 0px 0px;
     }
     100% {
-        background-position: -1211px 0px;
+        background-position: -1015px 0px;
     }
 }
 footer {
@@ -652,7 +652,29 @@ footer .copyright .back:hover {
 }
 @media (max-width: 769px) {
   section.slider h1 {
-    font-size: 18px;
+    font-size: 16px;
+  }
+  section.slider h1,
+  section.slider h4,
+  section.slider h6 {
+    padding: 0 10px;
+    left: 60px;
+  }
+  nav ul.phoneNumber {
+    left: 60px;
+  }
+  section.pricing .priceItem {
+    padding: 27px 10px 27px 10px;
+  }
+  section.pricing .price {
+    padding-right: 10px;
+  }
+  section.pricing ul {
+    padding-left: 10px;
+  }
+  section.slider .slider-image1,
+  section.slider .slider-image2 {
+    background-position: center;
   }
   footer .socialNetworks .icons {
     margin-left: 0;
